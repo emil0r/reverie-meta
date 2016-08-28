@@ -6,5 +6,5 @@
   :dependencies [[org.clojure/clojure "1.8.0"]
 
                  ;; reverie
-                 [reverie-core "0.8.3-alpha3"]
-                 [reverie-sql "0.8.3-alpha3"]])
+                 [reverie-core "0.8.0-alpha3"]
+                 [reverie-sql "0.8.0-alpha3"]])
