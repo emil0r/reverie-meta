@@ -1,4 +1,4 @@
-(defproject reverie-meta "0.1.0-SNAPSHOT"
+(defproject reverie-meta "0.1.0"
   :description "reverie module for page meta data"
   :url "http://reveriecms.org"
   :license {:name "Eclipse Public License"
