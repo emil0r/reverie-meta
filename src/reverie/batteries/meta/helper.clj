@@ -1,4 +1,4 @@
-(ns reverie.meta.helper
+(ns reverie.batteries.meta.helper
   (:require [ez-database.core :as db]
             [reverie.page :as page]
             [yesql.core :refer [defqueries]])

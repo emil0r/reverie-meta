@@ -1,4 +1,4 @@
-(ns reverie.meta.module
+(ns reverie.batteries.meta.module
   (:require [ez-database.core :as db]
             [reverie.core :refer [defmodule]]
             [vlad.core :as vlad]))
@@ -44,7 +44,7 @@
 (defmodule reverie/meta
   {:name "Meta"
    :interface? true
-   :migration {:path "src/reverie/meta/migrations/meta"
+   :migration {:path "src/reverie/batteries/meta/migrations/meta"
                :automatic? true
                :table "migrations_module_reverie_meta"}
    :actions #{:view :edit}
@@ -69,7 +69,6 @@
                     :type {:name "Type"
                            :type :dropdown
                            :options [["Meta" "meta"]
-                                     ["Title" "title"]
                                      ["Link (javascript)" "link-js"]
                                      ["Link (CSS)" "link-css"]
                                      ["Javascript (raw)" "js"]
